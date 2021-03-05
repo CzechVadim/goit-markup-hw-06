@@ -215,7 +215,20 @@ img {
   width: 530px; /* ширина модального окна */
   height: 580px; /* высота модального окна */
   background-color: var(--bg-white-color); /* фон модального окна */
-  padding: 8px;
+}
+
+/* --- ЗАГОЛОВОК ФОРМЫ --- */
+
+.form-title {
+  margin-top: 40px; 
+  margin-bottom: 12px;
+  text-align: center;
+  color: var(--black-text);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.03em;
 }
 
 
@@ -228,13 +241,19 @@ img {
   outline: 1px solid red;
 }
 
+.form-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  outline: 1px solid blue;
+}
+
 
 /* --- КОММЕНТАРИЙ --- */
 
 textarea {
   resize: none;
 }
-
 
 
 /* --- MODAL CLOSE BUTTON --- */
@@ -420,7 +439,6 @@ textarea {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
   line-height: 16px;
   letter-spacing: 0.03em;
   color: var(--white-text);
