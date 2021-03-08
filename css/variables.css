@@ -14,6 +14,8 @@
    --gradient-collor: rgba(47, 48, 58, 0.4);
    --bg-service-collor: rgba(47, 48, 58, 0.8);
    --border-form:rgba(33, 33, 33, 0.2);
+   --footer-border: rgba(255, 255, 255, 0.3);
+   --placeholder-collor:rgba(117, 117, 117, 0.5);
    --bg-backdrop-collor: rgba(0, 0, 0, 0.2);
    --overlay-collor:rgba(33, 150, 243, 0.9);
    --border-icon-collor:rgba(0, 0, 0, 0.1);
